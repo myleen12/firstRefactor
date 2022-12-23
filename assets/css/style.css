@@ -4,9 +4,13 @@
     margin: 0;
 }
 
+/*background-color white assigned to the body tag */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* all measurment are assined to class header*/
 
 .header {
     padding: 20px;
@@ -15,10 +19,14 @@ body {
     color: #ffffff;
 }
 
+/* display and font size is assighned to the h1 header any h1 element will have thos same measurements*/
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
+/*color change only applies to any element that is .header h1 .seo in HMTL*/
 
 .header h1 .seo {
     color: #d9dcd6;
